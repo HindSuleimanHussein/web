@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search functionality</title>
+</head>
+
+<body>
+    <h1>Search for Valuable information</h1>
+    <form action="http://comp334.studentswebprojects.ritaj.ps/util/process.php" method="post">
+        <div>
+            <!--As Asked By Dr.Yosef Hassouneh, I did checkboxes-->
+            <p><strong>What Topics Are You Searching For:</strong><br>
+                <input type="checkbox" id="firstTopic" name="firstTopic" value="discussions">
+                <label for="firstTopic"> I want Relevant Discussions</label>
+                <br>
+                <input type="checkbox" id="secondTopic" name="secondTopic" value="resources">
+                <label for="secondTopic"> I want Relevant Resources</label>
+                <br>
+                <input type="checkbox" id="thirdTopic" name="thirdTopic" value="expert">
+                <label for="thirdTopic"> I want to find an Expert</label>
+            </p>
+        </div>
+        <br>
+        <div>
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search" placeholder="Search for...">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="submit">
+        </div>
+    </form>
+
+    <br>
+    <a href="./index.html">Back</a>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profiles</title>
+</head>
+
+<body>
+    <h1>Create Your User Profile!</h1>
+    <form action="http://comp334.studentswebprojects.ritaj.ps/util/process.php" method="post">
+        <fieldset>
+            <p>
+                <label for="name">Your Name: </label>
+                <input type="text" id="name" name="name" />
+            </p>
+
+            <p>
+                <label for="photo">Upload Your Photo: </label>
+                <input type="file" id="photo" name="photo" />
+                </div>
+                <br>
+            <div>
+                <label for="bio">Tell Us a Little Bit About Yourself</label>
+                <br>
+                <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            </div>
+
+            <br>
+
+            <div>
+                <!--As Asked By Dr.Yosef Hassouneh, I did a dropdown menu-->
+                <label>Choose a Country:</label>
+                <select name="Choose a Country">
+                    <option value="default" disabled selected>Choose a Country</option>
+                    <option value="Palestine">Palestine</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Canada">Canada</option>
+                    <option value="America">America</option>
+                    <option value="Italy">Italy</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <input type="submit" value="submit">
+            </div>
+            </p>
+        </fieldset>
+    </form>
+
+    <br>
+    <a href="./index.html">Back</a>
+    
+</body>
+
+</html>

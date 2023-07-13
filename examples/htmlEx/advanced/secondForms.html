@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <h1>Country Of Origin</h1>
+        <form method="get" action="process.php">
+            <!--fieldset indicates that there are many fields to this form-->
+            <fieldset>
+                <legend>Details</legend>
+                <p>
+                    <label> Title: </label>
+                    <input type="text" name="title" />
+                </p>
+                <p>
+                    <label>Country: </label>
+                    <!--select is used for the drop down box-->
+                    <select name="where">
+                        <option>Choose a Country</option>
+                        <option>Canada</option>
+                        <option>America</option>
+                        <option>Jordan</option>
+    
+                    </select>
+    
+                <div>
+                    <input type="text" placeholder="Password " pattern="[a-z][0-9][a-z] [0-9][a-z][0-9]" />
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Done">
+                </div>
+                </p>
+            </fieldset>
+    
+        </form>
+</body>
+</html>

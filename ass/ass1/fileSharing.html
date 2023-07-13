@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File sharing</title>
+</head>
+
+<body>
+    <h1>Share Important Resources with Others</h1>
+    <form action="http://comp334.studentswebprojects.ritaj.ps/util/process.php" method="post">
+        <div>
+            <label for="file">Upload Any Files You Would Like to Share:</label>
+            <br>
+            <input type="file" id="file" name="file" accept=".doc,.docx,.pdf,image/*,video/*">
+        </div>
+        <br>
+        <div>
+            <!--As Asked By Dr.Yosef Hassouneh, I did radio buttons-->
+            <p>What are You Sharing:</p>
+              <input type="radio" id="resources" name="typeOfFile" value="resources">
+              <label for="resources">resources</label>
+            <br>
+              <input type="radio" id="templates" name="typeOfFile" value="templates">
+              <label for="templates">templates</label>
+            <br>
+              <input type="radio" id="bestPractices" name="typeOfFile" value="bestPractices">
+              <label for="bestPractices">bestPractices</label>
+        </div>
+
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    <br>
+    <a href="./index.html">Back</a>
+</body>
+
+</html>
